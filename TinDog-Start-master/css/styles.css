@@ -1,0 +1,175 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-weight: 900;
+}
+
+p {
+  font-size: 1rem;
+  line-height: normal;
+  color: grey;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+  color: black;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-text {
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+
+
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
+
+/* Download Buttons */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Photo */
+.title-image {
+  transform: rotate(25deg);
+  width: 70%;
+  margin-left: 100px;
+  position: absolute;
+  right: 20%;
+}
+
+.row {
+  margin-top: 50px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+/* Features section */
+#features {
+
+  line-height: 5rem;
+  padding: 5rem;
+  position: relative;
+}
+
+
+
+.feature-text {
+  font-size: 2rem;
+}
+
+.icon {
+  color: #ff8484;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ff8484;
+
+}
+
+.testimonial-text {
+  color: white;
+}
+
+
+
+.credential {
+  margin-top: 50px;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  max-width: 12%;
+  height: auto;
+
+}
+
+/* Press */
+#press {
+  background-color: #ff8484;
+  padding: 3%;
+}
+
+.companies {
+  width: 20%;
+  height: auto;
+  padding: 3%;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.number {
+  color: black;
+}
+
+/* Call to Action */
+
+#footer {
+  line-height: 5rem;
+}
+
+.social {
+  /* color: black; */
+  font-size: 1.5rem;
+  margin: 10px 20px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    right: 0;
+  }
+}
